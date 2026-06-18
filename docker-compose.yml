@@ -42,7 +42,7 @@ services:
       APP_DEBUG: ${APP_DEBUG}
       APP_URL: ${APP_URL}
       DB_CONNECTION: pgsql
-      DB_PORT: ${DB_PORT}
+      DB_PORT: 5432
       DB_DATABASE: ${POSTGRES_DB}
       DB_USERNAME: ${POSTGRES_USER}
       DB_PASSWORD: ${POSTGRES_PASSWORD}
